@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run pgpt",
+        "type": "shell",
+        "command": "/usr/local/bin/python3",
+        "args": [
+            "pgpt.py",
+            "--input",
+            "p.md"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+}
