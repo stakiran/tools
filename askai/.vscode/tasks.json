@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run askai",
+        "type": "shell",
+        "command": "/usr/local/bin/python3",
+        "args": [
+            "askai.py",
+            "--input",
+            "${fileBasenameNoExtension}.md"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+}
