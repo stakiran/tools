@@ -1,0 +1,23 @@
+[core]
+	editor = 'C:/Program Files/Hidemaru/HIDEMARU.EXE'
+	quotepath = false
+[user]
+	name = stakiran
+	email = stakiran@users.noreply.github.com
+[credential]
+	helper = wincred
+[credential "https://dev.azure.com/"]
+	helper = store
+	UseHttpPath = true
+[alias]
+	a = add
+	b = branch
+	ba = branch -a
+	c = commit
+	co = checkout
+	cam = commit --amend -m
+	s = status
+	ss = status --short
+	d = diff
+	po = push origin
+	pom = push origin master
